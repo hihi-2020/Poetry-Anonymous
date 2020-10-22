@@ -2,7 +2,7 @@
 const express = require('express')
 const hbs = require('express-handlebars')
 const fs = require ('fs')
-//const poems = require ('./data.json')
+const poemsYo = require ('./data.json')
 
 const server = express()
 
@@ -23,20 +23,36 @@ server.get('/', (req, res)=>{
 })
 
 
-server.get('/:id', (req,res) => {
-
-    fs.readFile('./data.json', 'utf-8', (err, data) => {
-      data = JSON.parse(data)
-
-      let thePoem = data.poems.find((onePoem) =>{ 
-        return onePoem.id == req.params.id})
-
-      console.log(thePoem + "+++++++++++++")
-      console.log(data + "________________________")
+      
   
-      res.render('/', thePoem)
-    })
-  })
+  
+
+
+
+
+
+server.get('/conjure', (req,res) => {
+  
+  
+  fs.readFile('./data.json', 'utf-8', (err, data) => {
+    data = JSON.parse(data)
+  
+   let randomPoem =  Math.floor(Math.random() * data.poems.length) + 1;
+  
+    
+
+        let thePoem = data.poems.find((onePoem) =>{ 
+          return onePoem == data.poems[randomPoem]})
+  
+        
+          res.render('view', thePoem)
+        })
+        
+})
+
+
+
+
 
 
 
