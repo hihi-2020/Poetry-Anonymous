@@ -1,42 +1,32 @@
 {
-    "poems":[{
-
-    "id":1,
-    "poem": "i am a women and a poem",
-    "author": "Nayyirah Waheed",
-    "region": "California, USA",
-    "year": "2019"
-
-},
-{
-    "id":2,
-    "poem": "some words build houses in your throat. and they live there. content and on fire",
-    "author": "Nayyirah Waheed",
-    "region": "California, USA",
-    "year": "2019"
-},
-
-{
-
-    "id":3,
-    "poem": "my ancestors made sure i was born the color of their eyes",
-    "author": "Nayyirah Waheed",
-    "region": "California, USA",
-    "year": "2019"
-
-
-},
-{
-
-    "id":4,
-    "poem": "she is poem country everywhere a language",
-    "author": "Nayyirah Waheed",
-    "region": "California, USA",
-    "year": "2019"
-
-
+  "poems": [
+    {
+      "id": 1,
+      "poem": "i am a women and a poem",
+      "author": "Nayyirah Waheed",
+      "region": "California, USA",
+      "year": "2019"
+    },
+    {
+      "id": 2,
+      "poem": "some words build houses in your throat. and they live there. content and on fire",
+      "author": "Nayyirah Waheed",
+      "region": "California, USA",
+      "year": "2019"
+    },
+    {
+      "id": 3,
+      "poem": "my ancestors made sure i was born the color of their eyes",
+      "author": "Nayyirah Waheed",
+      "region": "California, USA",
+      "year": "2019"
+    },
+    {
+      "id": 4,
+      "poem": "she is poem country everywhere a language",
+      "author": "Nayyirah Waheed",
+      "region": "California, USA",
+      "year": "2019"
+    }
+  ]
 }
-
-
-
-]}

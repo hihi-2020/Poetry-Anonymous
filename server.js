@@ -2,7 +2,7 @@
 const express = require('express')
 const hbs = require('express-handlebars')
 const fs = require ('fs')
-const poemsYo = require ('./data.json')
+//const poemsYo = require ('./data.json')
 
 const server = express()
 
@@ -24,10 +24,40 @@ server.get('/', (req, res)=>{
 
 
       
-  
-  
+
+server.get('/new', (req,res) =>{
+res.render('new')
+
+})
 
 
+server.post('/new', (req,res)=>{
+
+  fs.readFile('./data.json', 'utf-8', (err, data) => {
+    data = JSON.parse(data)
+
+
+    data.poems.push({
+      "id": data.poems.length +2,
+      "poem": req.body.poem,
+      "author": req.body.author,
+      "region":req.body.region,
+      "year": req.body.year
+
+    })
+      data = JSON.stringify(data, null, 2)
+        
+
+      fs.writeFile('data.json',data , (err) => {
+        if (err) throw err;
+        console.log('The file has been saved!');
+
+        res.redirect('/')
+
+  })
+
+})
+})
 
 
 
@@ -38,8 +68,6 @@ server.get('/conjure', (req,res) => {
     data = JSON.parse(data)
   
    let randomPoem =  Math.floor(Math.random() * data.poems.length) + 1;
-  
-    
 
         let thePoem = data.poems.find((onePoem) =>{ 
           return onePoem == data.poems[randomPoem]})
@@ -49,8 +77,6 @@ server.get('/conjure', (req,res) => {
         })
         
 })
-
-
 
 
 
