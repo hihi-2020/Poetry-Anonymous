@@ -23,20 +23,22 @@ server.get('/', (req, res)=>{
 })
 
 
-server.get('/:id', (req,res) => {
+server.get('/conjure', (req,res) => {
 
     fs.readFile('./data.json', 'utf-8', (err, data) => {
       data = JSON.parse(data)
 
-      let thePoem = data.poems.find((onePoem) =>{ 
-        return onePoem.id == req.params.id})
+      let randomPoem = Math.floor((Math.random() * data.poems.length));
 
-      console.log(thePoem + "+++++++++++++")
-      console.log(data + "________________________")
+
+      let thePoem = data.poems.find((onePoem) =>{ 
+        return onePoem == data.poems[randomPoem]})
   
-      res.render('/', thePoem)
+      res.render('view', thePoem)
     })
   })
+
+
 
 
 
