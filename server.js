@@ -40,6 +40,44 @@ server.get('/conjure', (req,res) => {
 
 
 
+server.get('/create', (req, res)=>{
+
+    res.render('create')
+
+})
+
+
+server.get('/submitted', (req, res)=>{
+
+  res.render('submitted')
+
+})
+
+server.post('/create', (req,res) =>{
+
+  fs.readFile('./data.json', 'utf-8', (err, data) => {
+    data = JSON.parse(data)
+
+    data.poems.push({
+
+      "id": data.poems.length + 1,
+      "poem": req.body.poem,
+      "author":req.body.author,
+      "region":req.body.region,
+      "year": req.body.year    
+
+    })
+    fs.writeFile('./data.json', JSON.stringify(data, null, 2), ()=>{
+  
+      res.redirect('/submitted')
+  })
+
+  
+    })
+
+
+  
+})
 
 
 
