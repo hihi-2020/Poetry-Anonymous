@@ -1,310 +1,116 @@
 {
-    "poems":[{
-
-    "id":1,
-    "poem": "i am a women and a poem",
-    "author": "Nayyirah Waheed",
-    "region": "California, USA",
-    "year": "2019"
-
-},
-{
-    "id":2,
-    "poem": "some words build houses in your throat. and they live there. content and on fire",
-    "author": "Nayyirah Waheed",
-    "region": "California, USA",
-    "year": "2019"
-
-},
-
-{
-  "id":3,
-  "poem": "my ancestors made sure i was born the color of their eyes",
-  "author": "Nayyirah Waheed",
-  "region": "California, USA",
-  "year": "2019"
-
-},
-{
-
-    "id":4,
-    "poem": "she is poem country everywhere a language",
-    "author": "Nayyirah Waheed",
-    "region": "California, USA",
-    "year": "2019"
-
-
-
-
-
-
-{
-
-  "id":5,
-  "poem": "Cooking is like writing poetry: Be careful in the choice of your ingredients and respectful of how they work together. That's true of all efforts in life.",
-  "author": "Maya Angelou",
-  "region": "USA",
-  "year": "~"
-
-
-},
-{
-
-  "id":6,
-  "poem": "fame is a fickle food, upon a shifting plate Whose table once a Guest, but not The second time, is set. Whose crumbs the crows inspect, And with the ironic caw Flap past it to the Farmer's corn; Men eat of it and die.",
-  "author": "Emily Dickinson",
-  "region": "Massachusetts, USA",
-  "year": "1863~"
-
-
-},
-{
-
-  "id":7,
-  "poem": "men hate women more than they realise. women hate men less than they deserve",
-  "author": "Helen Rickerby",
-  "region": "New Zealand",
-  "year": "2019"
-
-
-},
-{
-
-  "id":8,
-  "poem": "To-day or this noon She dwelt so close, I almost touched her; Tonight she lies Past neighbourhood - And bough and steeple - Now past surmise",
-  "author": "Emily Dickinson",
-  "region": "Massachusetts, USA",
-  "year": "1863~"
-
-
-},
-{
-
-  "id":9,
-  "poem": "In my season I used to weave love garlands.",
-  "author": "Sappho",
-  "region": "Lesbos, Greece",
-  "year": "610BC~"
-
-
-},
-{
-
-  "id":10,
-  "poem": "Wealth without virtue is no harmless neighbor.",
-  "author": "Sappho",
-  "region": "Lesbos, Greece",
-  "year": "610BC~"
-
-
-},
-{
-
-  "id":11,
-  "poem": "The difference between poetry and rhetoric
-  is being ready to kill
-  yourself
-  instead of your children.",
-  "author": "Audre Lorde",
-  "region": "USA",
-  "year": "1863~"
-
-
-},
-{
-
-  "id":11,
-  "poem": "Moon marked and touched by sun   
-  my magic is unwritten
-  but when the sea turns back
-  it will leave my shape behind.   
-  I seek no favor
-  untouched by blood
-  unrelenting as the curse of love   
-  permanent as my errors
-  or my pride
-  I do not mix
-  love with pity
-  nor hate with scorn
-  and if you would know me
-  look into the entrails of Uranus   
-  where the restless oceans pound.
-  
-  I do not dwell
-  within my birth nor my divinities   
-  who am ageless and half-grown   
-  and still seeking
-  my sisters
-  witches in Dahomey
-  wear me inside their coiled cloths   
-  as our mother did
-  mourning.
-  
-  I have been woman
-  for a long time
-  beware my smile
-  I am treacherous with old magic   
-  and the noon's new fury
-  with all your wide futures   
-  promised
-  I am
-  woman
-  and not white.",
-  "author": "Audre Lorde",
-  "region": "USA",
-  "year": "1978"
-
-
-},
-{
-
-  "id":11,
-  "poem": "The difference between poetry and rhetoric
-  is being ready to kill
-  yourself
-  instead of your children.",
-  "author": "Audre Lorde",
-  "region": "USA",
-  "year": "1863~"
-
-
-},
-{
-
-  "id":11,
-  "poem": "The difference between poetry and rhetoric
-  is being ready to kill
-  yourself
-  instead of your children.",
-  "author": "Audre Lorde",
-  "region": "USA",
-  "year": "1863~"
-
-
-},
-{
-
-  "id":11,
-  "poem": "The War Works Hard
- 
-  
-  
-  
-  
-  
-  
-  How magnificent the war is!
-  
-  How eager
-  
-  and efficient!
-  
-  Early in the morning
-  
-  it wakes up the sirens
-  
-  and dispatches ambulances
-  
-  to various places
-  
-  swings corpses through the air
-  
-  rolls stretchers to the wounded
-  
-  summons rain
-  
-  from the eyes of mothers
-  
-  digs into the earth
-  
-  dislodging many things
-  
-  from under the ruins...
-  
-  Some are lifeless and glistening
-  
-  others are pale and still throbbing...
-  
-  It produces the most questions
-  
-  in the minds of children
-  
-  entertains the gods
-  
-  by shooting fireworks and missiles
-  
-  into the sky
-  
-  sows mines in the fields
-  
-  and reaps punctures and blisters
-  
-  urges families to emigrate
-  
-  stands beside the clergymen
-  
-  as they curse the devil
-  
-  (poor devil, he remains
-  
-  with one hand in the searing fire)...
-  
-  The war continues working, day and night.
-  
-  It inspires tyrants
-  
-  to deliver long speeches
-  
-  awards medals to generals
-  
-  and themes to poets
-  
-  it contributes to the industry
-  
-  of artificial limbs
-  
-  provides food for flies
-  
-  adds pages to the history books
-  
-  achieves equality
-  
-  between killer and killed
-  
-  teaches lovers to write letters
-  
-  accustoms young women to waiting
-  
-  fills the newspapers
-  
-  with articles and pictures
-  
-  builds new houses
-  
-  for the orphans
-  
-  invigorates the coffin makers
-  
-  gives grave diggers
-  
-  a pat on the back
-  
-  and paints a smile on the leader's face.
-  
-  It works with unparalleled diligence!
-  
-  Yet no one gives it
-  
-  a word of praise.",
-  "author": "Dunya Mikhail",
-  "region": "Iraq",
-  "year": "2005"
-
-
-},
-
-
-
-
-]}
-
+  "poems": [
+    {
+      "id": 1,
+      "poem": "i am a women and a poem",
+      "author": "Nayyirah Waheed",
+      "region": "California, USA",
+      "year": "2019"
+    },
+    {
+      "id": 2,
+      "poem": "some words build houses in your throat. and they live there. content and on fire",
+      "author": "Nayyirah Waheed",
+      "region": "California, USA",
+      "year": "2019"
+    },
+    {
+      "id": 3,
+      "poem": "my ancestors made sure i was born the color of their eyes",
+      "author": "Nayyirah Waheed",
+      "region": "California, USA",
+      "year": "2019"
+    },
+    {
+      "id": 4,
+      "poem": "she is poem country everywhere a language",
+      "author": "Nayyirah Waheed",
+      "region": "California, USA",
+      "year": "2019"
+    },
+    {
+      "id": 5,
+      "poem": "Cooking is like writing poetry: Be careful in the choice of your ingredients and respectful of how they work together. That's true of all efforts in life.",
+      "author": "Maya Angelou",
+      "region": "USA",
+      "year": "~"
+    },
+    {
+      "id": 6,
+      "poem": "fame is a fickle food, upon a shifting plate Whose table once a Guest, but not The second time, is set. Whose crumbs the crows inspect, And with the ironic caw Flap past it to the Farmer's corn; Men eat of it and die.",
+      "author": "Emily Dickinson",
+      "region": "Massachusetts, USA",
+      "year": "1863~"
+    },
+    {
+      "id": 7,
+      "poem": "men hate women more than they realise. women hate men less than they deserve",
+      "author": "Helen Rickerby",
+      "region": "New Zealand",
+      "year": "2019"
+    },
+    {
+      "id": 8,
+      "poem": "To-day or this noon She dwelt so close, I almost touched her; Tonight she lies Past neighbourhood - And bough and steeple - Now past surmise",
+      "author": "Emily Dickinson",
+      "region": "Massachusetts, USA",
+      "year": "1863~"
+    },
+    {
+      "id": 9,
+      "poem": "In my season I used to weave love garlands.",
+      "author": "Sappho",
+      "region": "Lesbos, Greece",
+      "year": "610BC~"
+    },
+    {
+      "id": 10,
+      "poem": "Wealth without virtue is no harmless neighbor.",
+      "author": "Sappho",
+      "region": "Lesbos, Greece",
+      "year": "610BC~"
+    },
+    {
+      "id": 11,
+      "poem": "The difference between poetry and rhetoric is being ready to kill yourself instead of your children.",
+      "author": "Audre Lorde",
+      "region": "USA",
+      "year": "1863~"
+    },
+    {
+      "id": 12,
+      "poem": "Moon marked and touched by sun   my magic is unwrittenbut when the sea turns backit will leave my shape behind.   I seek no favoruntouched by bloodunrelenting as the curse of love   permanent as my errorsor my prideI do not mixlove with pitynor hate with scornand if you would know melook into the entrails of Uranus   where the restless oceans pound.I do not dwellwithin my birth nor my divinities   who am ageless and half-grown and still seekingmy sisterswitches in Dahomeywear me inside their coiled cloths  as our mother didmourning.I have been womanfor a long timebeware my smileI am treacherous with old magic   and the noon's new furywith all your wide futures   promisedI amwomanand not white.",
+      "author": "Audre Lorde",
+      "region": "USA",
+      "year": "1978"
+    },
+    {
+      "id": 13,
+      "poem": "The difference between poetry and rhetoricis being ready to kil yourself instead of your children.",
+      "author": "Audre Lorde",
+      "region": "USA",
+      "year": "1863~"
+    },
+    {
+      "id": 14,
+      "poem": "The difference between poetry and rhetoric is being ready to kill yourself instead of your children.",
+      "author": "Audre Lorde",
+      "region": "USA",
+      "year": "1863~"
+    },
+    {
+      "id": 15,
+      "poem": "The War Works Hard How magnificent the war is! How eager and efficient! Early in the morning it wakes up the sirens and dispatches ambulances to various places swings corpses through the air rolls stretchers to the wounded summons rain from the eyes of mothers digs into the earth dislodging many things from under the ruins... Some are lifeless and glistening others are pale and still throbbing... It produces the most questions in the minds of children entertains the gods by shooting fireworks and missiles into the sky sows mines in the fields and reaps punctures and blisters urges families to emigrate stands beside the clergymen as they curse the devil (poor devil, he remains with one hand in the searing fire)... The war continues working, day and night. It inspires tyrants to deliver long speeches awards medals to generals and themes to poets it contributes to the industry of artificial limbs provides food for flies adds pages to the history books achieves equality between killer and killed teaches lovers to write letters accustoms young women to waiting fills the newspapers with articles and pictures builds new houses for the orphans invigorates the coffin makers gives grave diggers a pat on the back and paints a smile on the leader's face. It works with unparalleled diligence! Yet no one gives it a word of praise.",
+      "author": "Dunya Mikhail",
+      "region": "Iraq",
+      "year": "2005"
+    },
+    {
+      "id": 16,
+      "poem": "uwvifuw",
+      "author": "sdgsd",
+      "region": "fgrg",
+      "year": "rgr"
+    }
+  ]
+}

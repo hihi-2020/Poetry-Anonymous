@@ -1,0 +1,79 @@
+body{
+    background-color:  #FFFBF6;
+
+    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Alice', serif; */
+
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: minmax(200px,70%) 1fr;
+
+    grid-column-gap: 50px;
+    /* grid-template-rows: 30%, 30%, 30%; */
+    
+}
+
+.grid-item {
+height: calc(100vh - 16px);
+position: relative;
+}
+
+.heading {
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+
+  font-family: 'Inconsolata', monospace;
+}
+
+.poem{
+margin:100px;
+font-size: 23px;
+
+}
+
+a:visited{
+    color: teal;
+    
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.btn{
+
+    background-color: white;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    font-family: 'Inconsolata', monospace;
+
+}
+
+input {
+    background-color: white;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    
+}
+
+textarea{
+    background-color:white;  
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+
+

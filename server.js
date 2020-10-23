@@ -23,21 +23,61 @@ server.get('/', (req, res)=>{
 })
 
 
-server.get('/:id', (req,res) => {
+server.get('/conjure', (req,res) => {
 
     fs.readFile('./data.json', 'utf-8', (err, data) => {
       data = JSON.parse(data)
 
-      let thePoem = data.poems.find((onePoem) =>{ 
-        return onePoem.id == req.params.id})
+      let randomPoem = Math.floor((Math.random() * data.poems.length));
 
-      console.log(thePoem + "+++++++++++++")
-      console.log(data + "________________________")
+
+      let thePoem = data.poems.find((onePoem) =>{ 
+        return onePoem == data.poems[randomPoem]})
   
-      res.render('/', thePoem)
+      res.render('view', thePoem)
     })
   })
 
+
+
+server.get('/create', (req, res)=>{
+
+    res.render('create')
+
+})
+
+
+server.get('/submitted', (req, res)=>{
+
+  res.render('submitted')
+
+})
+
+server.post('/create', (req,res) =>{
+
+  fs.readFile('./data.json', 'utf-8', (err, data) => {
+    data = JSON.parse(data)
+
+    data.poems.push({
+
+      "id": data.poems.length + 1,
+      "poem": req.body.poem,
+      "author":req.body.author,
+      "region":req.body.region,
+      "year": req.body.year    
+
+    })
+    fs.writeFile('./data.json', JSON.stringify(data, null, 2), ()=>{
+  
+      res.redirect('/submitted')
+  })
+
+  
+    })
+
+
+  
+})
 
 
 
