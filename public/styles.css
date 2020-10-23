@@ -26,7 +26,8 @@ position: relative;
     bottom: 100px;
     right: 0;
     left: 0;
-  
+
+  font-family: 'Inconsolata', monospace;
 }
 
 .poem{
@@ -35,7 +36,8 @@ font-size: 23px;
 
 }
 
-a.button{
+a:visited{
+    color: teal;
     
 }
 
